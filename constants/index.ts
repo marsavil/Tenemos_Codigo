@@ -12,7 +12,8 @@ export const cursos = [
     ],
     mentor: {
       name: "Angel Daniel Fuentes Segura",
-      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3 "
+      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3. ",
+      image: "/autor.jpg"
     },
     bonus: [
       {
@@ -40,8 +41,10 @@ export const cursos = [
         description: "Bootstrap-5 es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario. Con este bono aprenderás los fundamentos de esta tecnología y cómo utilizarla, para ello crearás una landing page, bajo la técnica Responsive Design o diseño adaptativo, esta técnica se usa en la actualidad para tener una misma web adaptada a las diferentes plataformas que nos brinda la tecnología: computadora, Tablet o Smartphone."
       },
     ],
-    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus xpectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
-    image: "/html-css.png"
+    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus expectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
+    image: "/html-css.png",
+    full: "/html-css.webp",
+    checkout: "https://go.hotmart.com/F91938378I?ap=3a7f"
   },
   {
     id: "esSk069F7MPgU47",
@@ -59,7 +62,8 @@ export const cursos = [
     ],
     mentor: {
       name: "Angel Daniel Fuentes Segura",
-      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3 "
+      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo con JavaScript ",
+      image: "/autor.jpg"
     },
     bonus: [
       {
@@ -71,8 +75,10 @@ export const cursos = [
         description: "Lo compone un repositorio donde podrá descargar todos los ejercicios que fueron desarrollados en cada una de las clases. Esto lo pueden usar de referencia para repasar todos los contenidos vistos."
       },
     ],
-    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus xpectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
-    image: "/javascript.png"
+    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus expectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
+    image: "/javascript.png",
+    full: "/javascript.webp",
+    checkout: "https://go.hotmart.com/X91969207K?ap=e098"
   },
   {
     id: "gV0t8DvORSB4rR2",
@@ -92,7 +98,8 @@ export const cursos = [
     ],
     mentor: {
       name: "Angel Daniel Fuentes Segura",
-      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3 "
+      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Desarrollo web avanzado con JavaScript. ",
+      image: "/autor.jpg"
     },
     bonus: [
       {
@@ -104,8 +111,10 @@ export const cursos = [
         description: "Lo compone un repositorio donde podrá descargar todos los ejercicios que fueron desarrollados en cada una de las clases. Esto lo pueden usar de referencia para repasar todos los contenidos vistos. Además tendrá acceso a un repositorio con más de cincuenta proyectos, desarrollados con diversas tecnologías del mundo del desarrollo web."
       },
     ],
-    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus xpectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
-    image: "/javascript-avanzado.png"
+    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus expectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
+    image: "/javascript-avanzado.png",
+    full: "/javascript-avanzado.webp",
+    checkout: "https://go.hotmart.com/J91980559M?ap=59f8"
   },
   {
     id: "DykkxGlQtQIrelX",
@@ -131,7 +140,8 @@ export const cursos = [
     ],
     mentor: {
       name: "Angel Daniel Fuentes Segura",
-      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3 "
+      description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de NodeJS ",
+      image: "/autor.jpg"
     },
     bonus: [
       {
@@ -143,8 +153,10 @@ export const cursos = [
         description: "Lo compone un repositorio donde podrá descargar todos los ejercicios que fueron desarrollados en cada una de las clases. Esto lo pueden usar de referencia para repasar todos los contenidos vistos. Además tendrá acceso a un repositorio con más de cincuenta proyectos, desarrollados con diversas tecnologías del mundo del desarrollo web."
       },
     ],
-    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus xpectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
-    image: "/node.png"
+    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus expectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
+    image: "/node.png",
+    full: "/node.webp",
+    checkout:"https://go.hotmart.com/R91980646T?ap=1d12"
   },
 
 ]
