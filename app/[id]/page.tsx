@@ -52,6 +52,7 @@ export default function Detail({ params }: { params: { id: string } }) {
         <button 
           onClick={() => {handleClick(curso?.checkout)}}
           className="text-2xl"
+          
         > 💰 C H E C K O U T </button>
         <Image
           src="/Tenemos codigo.svg"

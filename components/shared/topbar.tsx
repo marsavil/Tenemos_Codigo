@@ -12,8 +12,6 @@ export default function Topbar() {
         <Link
           className="pointer-events-none flex place-items-center gap-2  lg:pointer-events-auto lg:p-0"
           href={home}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <Image
             src="/Tenemos codigo.png"
