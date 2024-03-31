@@ -16,7 +16,7 @@ export default function Detail({ params }: { params: { id: string } }) {
     <main className="flex min-h-screen flex-col gap-5 items-center justify-between p-5">
       <Topbar />
       <div className="flex flex-col justify-center items-center gap-20 text-center lg:max-w-5xl lg:w-full lg:text-left">
-        <h1 className="text-4xl font-semibold text-white">{curso?.name}</h1>
+        <h1 className="text-4xl font-semibold mt-20 text-white">{curso?.name}</h1>
         <p className="font-thin">{curso?.description}</p>
         <Image src={curso?.full} width={500} height={500} alt={curso?.name} />
         <div>
@@ -51,15 +51,15 @@ export default function Detail({ params }: { params: { id: string } }) {
         </div>
         <button 
           onClick={() => {handleClick(curso?.checkout)}}
-          className="text-2xl"
+          className="text-2xl text-black mb-20 bg-gray px-2 rounded hover:bg-black hover:text-gray hover:cursor-pointer "
           
-        > 💰 C H E C K O U T </button>
+        >  C H E C K O U T </button>
         <Image
           src="/Tenemos codigo.svg"
           width={200}
           height={100}
           alt="Tenemos Código"
-          className="lg:hidden"
+          className="opacity-0 lg:hidden"
         />
       </div>
     </main>
