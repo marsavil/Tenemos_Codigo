@@ -13,7 +13,7 @@ export const cursos = [
     mentor: {
       name: "Angel Daniel Fuentes Segura",
       description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo Web con HTML5 y CSS3. ",
-      image: "/autor.jpg"
+      image: "/angel_fuentes.jpg"
     },
     bonus: [
       {
@@ -63,7 +63,7 @@ export const cursos = [
     mentor: {
       name: "Angel Daniel Fuentes Segura",
       description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Introducción al Desarrollo con JavaScript ",
-      image: "/autor.jpg"
+      image: "/angel_fuentes.jpg"
     },
     bonus: [
       {
@@ -99,7 +99,7 @@ export const cursos = [
     mentor: {
       name: "Angel Daniel Fuentes Segura",
       description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de Desarrollo web avanzado con JavaScript. ",
-      image: "/autor.jpg"
+      image: "/angel_fuentes.jpg"
     },
     bonus: [
       {
@@ -141,7 +141,7 @@ export const cursos = [
     mentor: {
       name: "Angel Daniel Fuentes Segura",
       description: "Apasionado y estudiososo de la tecnología, con una gran vocación por la docencia y más de 20 años de experiencia como docente universitario en países como Venezuela y Argentina. Actualmente se desempeña como Mentor de Docentes en Digital House - Buenos Aires - Argentina, programador Full Stack. Te acompañará durante todo tu proceso de formación en este curso de NodeJS ",
-      image: "/autor.jpg"
+      image: "/angel_fuentes.jpg"
     },
     bonus: [
       {
@@ -157,6 +157,25 @@ export const cursos = [
     image: "/node.png",
     full: "/node.webp",
     checkout:"https://go.hotmart.com/R91980646T?ap=1d12"
+  },
+  {
+    id: "7e90058d-5cf5-4bd8-a2e6-6d06d666dc6a",
+    name: "Curso profesional de Python",
+    short: "En este curso aprenderás todo lo que necesitas saber sobre el lenguaje de Python. Luego de terminarlo podrás decidir sobre qué área de la programación involucrarte, ya que una vez que inicias se abre un mundo de opciones.",
+    description: "Python es, en programación, el tercer lenguaje mas utilizado en el mundo. Esto significa que, según el índice medido en www.tiobe.com, las empresas requieren de programadores que conozcan este lenguaje. En este curso aprenderás todo lo que necesitas saber sobre el lenguaje de Python. Luego de terminarlo podrás decidir sobre qué área de la programación involucrarte, ya que una vez que inicias se abre un mundo de opciones. 19 módulos donde aprenderás paso por paso y escribiendo código como realizar  programas o scripts. Al terminar el curso, podrás desarrollar tus propios programas y dedicarte al mundo de la programación",
+    advantages: [
+    ],
+    mentor: {
+      name: "Brian De Vita",
+      description: "Soy un programador autodidacta con más de 4 años de experiencia en el desarrollo de software. Actualmente, también tengo el placer de ser profesor de programación y compartir mis conocimientos con otros. Mi objetivo es ayudar a mis estudiantes a adquirir habilidades valiosas en el mundo de la tecnología y brindarles las herramientas necesarias para ser exitosos en sus carreras. Siempre estoy dispuesto a escuchar y responder cualquier pregunta que puedan tener. ¡Espero tener la oportunidad de trabajar contigo y compartir juntos nuestro amor por la programación!",
+      image: "/brian_devita.jpg"
+    },
+    bonus: [
+    ],
+    important: "Tienes 7 días de garantía total después de tu compra, para que pruebes la calidad del contenido y veas si es para ti o no, si por alguna razón no cumplo tus expectativas te devolveré el 100% de tu dinero sin hacer preguntas.",
+    image: "/python.png",
+    full: "/python.webp",
+    checkout:"https://go.hotmart.com/M92422346I?ap=d040"
   },
 
 ]
