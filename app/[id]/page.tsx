@@ -1,4 +1,5 @@
 'use client'
+import Footer from "@/components/shared/footer";
 import Topbar from "@/components/shared/topbar";
 import { cursos } from "@/constants";
 import Image from "next/image";
@@ -61,6 +62,7 @@ export default function Detail({ params }: { params: { id: string } }) {
           alt="Tenemos Código"
           className="opacity-0 lg:hidden"
         />
+              <Footer />
       </div>
     </main>
   );
