@@ -24,6 +24,7 @@ export default function CoursesCards() {
                 width={250}
                 height={250}
                 alt={curso.name}
+                className="shadow-2xl shadow-slate-500 rounded-md"
               />
             </div>
 

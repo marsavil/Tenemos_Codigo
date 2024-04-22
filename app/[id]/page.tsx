@@ -18,7 +18,7 @@ export default function Detail({ params }: { params: { id: string } }) {
       <div className="flex flex-col justify-center items-center gap-20 text-center lg:max-w-5xl lg:w-full lg:text-left">
         <h1 className="text-4xl font-semibold mt-20 text-white">{curso?.name}</h1>
         <p className="font-thin">{curso?.description}</p>
-        <Image src={curso?.full} width={500} height={500} alt={curso?.name} />
+        <Image src={curso?.full} width={500} height={500} alt={curso?.name} className="rounded-lg shadow-lg shadow-slate-500	"/>
         <div>
           <ul className="list-disc list-inside">
             {curso?.advantages.map((advantage, index) => (
