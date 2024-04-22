@@ -1,4 +1,5 @@
 import CourseCard from "@/components/cards/CourseCard";
+import Footer from "@/components/shared/footer";
 import Topbar from "@/components/shared/topbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="flex flex-col text-center lg:max-w-5xl lg:w-full lg:text-left mt-10 lg:mb-0 ">
         <CourseCard />
       </div>
+      <Footer />
     </main>
   );
 }
