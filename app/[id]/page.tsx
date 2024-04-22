@@ -26,7 +26,7 @@ export default function Detail({ params }: { params: { id: string } }) {
             ))}
           </ul>
         </div>
-        <p>⚠️ IMPORTANTE ⚠️{"    "}{curso?.important}</p>
+        <p className="bg-gray rounded text-black p-5">⚠️ IMPORTANTE ⚠️{"    "}{curso?.important}</p>
         <div>
           {curso?.mentor && (
             <section className="flex flex-col gap-5">
