@@ -9,22 +9,11 @@ export default function Topbar() {
         Aprende a programar con tus horarios
       </p>
       <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center gap-5 bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-        <Link
-          className="flex place-items-center gap-2  lg:pointer-events-auto lg:p-0"
-          href={home}
-        >
-          <Image
-            src="/Tenemos codigo.png"
-            alt="Logo"
-            width={150}
-            height={100}
-            priority
-          />
-        </Link>
-        <div className="lg:hidden items-center">
-          <div className="flex flex-row gap-16 items-center">
+
+        <div className="lg:hidden items-center opacity-40">
+          <div className="flex flex-row gap-7 items-center">
             <div className="flex flex-row items-center">
-              <p>Powered by</p>
+              <p className="text-xs">Powered by</p>
               <Link href={"https://hotmart.com/"} target="blank">
                 <Image
                   src={"/Hotmart_logo.svg"}
@@ -34,8 +23,24 @@ export default function Topbar() {
                 />
               </Link>
             </div>
+            </div>
+            </div>
+            <Link
+          className="flex place-items-center gap-2  lg:pointer-events-auto lg:p-0"
+          href={home}
+        >
+          <Image
+            src="/Tenemos codigo.png"
+            alt="Logo"
+            width={200}
+            height={100}
+            priority
+          />
+        </Link>
+        <div className="lg:hidden items-center opacity-40">
+          <div className="flex flex-row gap-7 items-center">
             <div className="flex flex-row gap-5 items-center">
-              <p className="footer__copyright">© 2024 Marsavil.</p>
+              <p className="text-xs">© 2024 Marsavil.</p>
               <Link href={"https://shrinkify-two.vercel.app/d8exf"} target="blank">
                 <Image
                   src={"/LinkedIn_icon.png"}
